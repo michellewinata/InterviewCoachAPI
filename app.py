@@ -8,7 +8,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# Hide Streamlit default chrome for a full custom UI experience
 st.markdown("""
 <style>
     #MainMenu, header, footer { visibility: hidden; }
@@ -17,9 +16,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  FULL APP HTML / CSS / JS
-# ─────────────────────────────────────────────────────────────────────────────
 HTML = r"""
 <!DOCTYPE html>
 <html lang="en">
